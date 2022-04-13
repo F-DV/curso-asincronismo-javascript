@@ -1,0 +1,23 @@
+{
+  "name": "curso-asincronismo-javascript",
+  "version": "1.0.0",
+  "description": "Trabajo con asincronismo en javascript",
+  "main": "callback.js",
+  "scripts": {
+    "callback:API": "node src/callbacks/callback_Api.js",
+    "promise": "node src/promise/promise_1.js",
+    "promiseApi" : "node src/promise/promise_Api.js",
+    "async": "node src/async/async_1.js",
+    "asyncApi": "node src/async/async_Api.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "FelipeQG",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
