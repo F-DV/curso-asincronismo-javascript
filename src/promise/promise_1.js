@@ -36,7 +36,8 @@ somethingWillHappen2()
 
 /*
     La funcion promise.all nos permite ejecutar todas las promesas que tengamos
-    y nos deveulve lños resultados de cada una en un array
+    y nos deveulve los resultados de cada una en un array, si solo una falla
+    cancela todas
 */
 Promise.all([somethingWillHappen(), somethingWillHappen2()])
 .then(response => {

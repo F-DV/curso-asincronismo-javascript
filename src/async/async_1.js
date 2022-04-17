@@ -1,7 +1,7 @@
 /*
     EL async awain nos permite trabajar las promesas sin utilizar el .then(), el codigo luce mas como
     si fuera sincrono, pero en realidad cuando aplicamos async se convierte la funcion asincrona
-    await se le antepone a la funcion que resuelve una promesa.
+    await se le antepone a la funcion que resuelve una promesa. Los errores se tratan con try catch.
 
 */
 
